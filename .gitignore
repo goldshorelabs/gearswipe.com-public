@@ -137,3 +137,38 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# VOC sensor data and scent test files
+VOC-dataset/
+hardware/readings/
+*.csv
+*.json
+*.sig
+*.nft
+*.bin
+*.mp4
+*.wav
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Arduino/Pi build files (if testing hardware)
+*.hex
+*.ino.*
+*.uf2
+
+# 3D models / custom hardware designs
+*.scad
+*.stl
+*.step
+*.obj
+*.f3d
+
+# Optional blockchain dev
+hardhat.cache/
+cache/
+artifacts/
+deployments/
